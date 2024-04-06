@@ -136,8 +136,8 @@ void upload_data(String payy){
   /* Reset the loop if no new card is present on RC522 Reader */
   /* Read data from the same block */  
   //----------------------------------------------------------------
-  String values = "\"" + payy + ",";
-  values += gate_number + "\"}";
+  String values = "\"" + payy;
+  values += "\"}";
   payload = payload_base + values;
   //----------------------------------------------------------------
   //----------------------------------------------------------------
