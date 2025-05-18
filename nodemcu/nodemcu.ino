@@ -5,9 +5,9 @@
 #include <SPI.h>
 #include<Wire.h>
 SoftwareSerial nodemcu (D6, D5);
-const char* ssid     = "Galaxy M040501";     //Set Wifi Name
-const char* password = "ojas@2004"; //Set Wifi Password
-const char *GScriptId = "AKfycbz4sLIvn6o6vB39MknNuVi2YXAt0FsR5EIZQZ6_2rKRRzxNLivXmWKofqqcBYMecc-Edg"; //Change ID
+const char* ssid     = ;     //Set Wifi Name
+const char* password = ; //Set Wifi Password
+const char *GScriptId = "; //Change ID
 String gate_number = "Gate Number"; //Chaneg Entry Gate According to you 
 const char* host        = "script.google.com";
 const int   httpsPort   = 443;
